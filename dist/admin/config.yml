@@ -6,7 +6,9 @@ media_folder: "dist/pictures" # Folder where user uploaded files should go
 public_folder: "dist"
 
 collections: # A list of collections the CMS should be able to edit
-  - files:
+  - label: "Pages"
+    name: "pages"
+    files:
       - name: "events"
         label: "Events"
         file: "dist/content/events.yml"
