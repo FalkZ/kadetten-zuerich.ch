@@ -12,11 +12,10 @@ collections: # A list of collections the CMS should be able to edit
     editor:
       preview: false
     fields:
-        - label: "Event"
-            name: "event"
-            widget: "list"
-            fields: 
-               - { label: Titel, name: title, widget: string, required: true }
-               - { label: Date & Time, name: date, widget: datetime, required: true }
-                - { label: Place, name: place, widget: string, required: true }
-
+      - label: "Event"
+        name: "event"
+        widget: "list"
+        fields:
+          - { label: Titel, name: title, widget: string, required: true }
+          - { label: Date & Time, name: date, widget: datetime, required: true }
+          - { label: Place, name: place, widget: string, required: true }
