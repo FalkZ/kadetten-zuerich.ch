@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-react-jsx": "^7.0.0"
+  },
+  "dependencies": {
+    "hyperapp": "^1.2.9"
+  }
+}
