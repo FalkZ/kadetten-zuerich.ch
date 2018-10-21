@@ -6,23 +6,17 @@ media_folder: "dist/pictures" # Folder where user uploaded files should go
 public_folder: "dist"
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "Erinnerungen"
-    label: "Erinnerungen"
-    create: true
-    folder: "dist/content/"
-    extension: yml
+  - name: "events"
+    label: "Events"
+    file: "dist/content/events.yml"
     editor:
       preview: false
     fields:
-      - { label: "Schulhaus", name: "title", widget: "string", required: true }
-      - label: Erinnerungen
-        name: erinnerungen
-        widget: "list"
-        fields:
-          - { label: Titel, name: title, widget: string, required: true }
-          - { label: Autor, name: autor, widget: string, required: true }
-          - { label: Text, name: text, widget: text, required: true }
-          - label: "Bilder"
-            name: "pictures"
+        - label: "Event"
+            name: "event"
             widget: "list"
-            field: { label: Image, name: image, widget: image }
+            fields: 
+               - { label: Titel, name: title, widget: string, required: true }
+               - { label: Date & Time, name: date, widget: datetime, required: true }
+                - { label: Place, name: place, widget: string, required: true }
+
