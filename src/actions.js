@@ -1,4 +1,8 @@
 const actions = {
-  down: value => state => ({ count: state.count - value }),
-  up: value => state => ({ count: state.count + value })
+  expand: date => state => {
+    console.log(date)
+    return { ...state, expanded: date }
+  }
 }
+
+export default actions
