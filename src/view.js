@@ -75,20 +75,22 @@ const Event = ({
 ];
 
 const content = {
-  programm: ({ state, actions }) => (
-    <table>
-      <tbody>
-        {event.sort((a, b) => b - a).map((props, index) => (
-          <Event
-            index={index}
-            expand={actions.expand}
-            expanded={state.expanded}
-            {...props}
-          />
-        ))}
-      </tbody>
-    </table>
-  ),
+  programm: ({ state, actions }) => {
+    return (
+      <table oncreate={() => actions.setTitle("Programm")}>
+        <tbody>
+          {event.sort((a, b) => b - a).map((props, index) => (
+            <Event
+              index={index}
+              expand={actions.expand}
+              expanded={state.expanded}
+              {...props}
+            />
+          ))}
+        </tbody>
+      </table>
+    );
+  },
   default: ({ state, actions }) => (
     <div
       oncreate={element => {
