@@ -2,6 +2,7 @@ import { h } from "hyperapp";
 
 import Icon from "./Icon";
 import Html from "./Html";
+import Nav from "./Nav";
 
 import { event } from "../dist/content/events.yml";
 import { runMain } from "module";
@@ -70,7 +71,7 @@ const Event = ({
 ];
 
 const content = {
-  Programm: ({ state, actions }) => (
+  programm: ({ state, actions }) => (
     <table>
       <tbody>
         {event.sort((a, b) => b - a).map((props, index) => (
@@ -84,14 +85,30 @@ const content = {
       </tbody>
     </table>
   ),
-  Schnuppernachmittag: () => (
+  default: ({ state, actions }) => (
     <div
       oncreate={element => {
-        fetch(schnuppernachmittag)
-          .then(response => response.text())
-          .then(text => marked(text))
-          .then(html => {
-            element.innerHTML = html;
+        fetch(
+          "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/contents/content"
+        )
+          .then(response => response.json())
+          .then(json => {
+            let match = false;
+            json.map(({ name, download_url }) => {
+              if (name.replace(".md", "") === state.current) {
+                match = true;
+                console.log(name.replace(".md", ""), state.current);
+                fetch(download_url)
+                  .then(response => response.text())
+                  .then(text => marked(text))
+                  .then(html => {
+                    element.innerHTML = html;
+                  });
+              }
+            });
+            if (!match) {
+              actions.redirect("");
+            }
           });
       }}
     />
@@ -99,17 +116,23 @@ const content = {
 };
 
 const Content = ({ state, actions }, [child]) => {
-  let Current = child.Programm;
+  let Current;
+  if (state.current === "") {
+    Current = child.programm;
+  } else {
+    Current = child.default;
+  }
+
   let title = "Programm";
   Object.keys(child).forEach(key => {
-    if ("#" + key === window.location.hash) {
+    if (key === state.current) {
       Current = child[key];
       title = key;
     }
   });
 
   return (
-    <main>
+    <main data-current={state.current}>
       <h1>{title}</h1>
       <div id="content">
         <Current {...{ state, actions }} />
@@ -119,18 +142,14 @@ const Content = ({ state, actions }, [child]) => {
 };
 const view = (state, actions) => (
   <div>
-    <div id="titlebar">Kadetten Zürich</div>
+    <div id="titlebar">KADETTEN ZÜRICH</div>
     <img
       id="background"
       alt="background"
       src="https://images.unsplash.com/photo-1507041957456-9c397ce39c97?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dc3500fa9354b6bca48783b36e59c4e0&auto=format&fit=crop&w=934&q=80'); // images.unsplash.com/photo-1507041957456-9c397ce39c97?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dc3500fa9354b6bca48783b36e59c4e0&auto=format&fit=crop&w=934&q=80"
     />
 
-    <nav>
-      <a>Programm</a>
-      <a>Über Uns</a>
-      <a>set</a>
-    </nav>
+    <Nav redirect={actions.redirect} />
     <Content {...{ state, actions }}>{content}</Content>
   </div>
 );

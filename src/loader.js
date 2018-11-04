@@ -1,10 +1,13 @@
-import { app } from "hyperapp"
+import { app } from "hyperapp";
 
-import "./redirect"
-import "./style.styl"
+import "./redirect";
+import "./style.styl";
 
-import state from "./state"
-import view from "./view"
-import actions from "./actions"
+import state from "./state";
+import view from "./view";
+import actions from "./actions";
 
-app(state, actions, view, document.body)
+const main = app(state, actions, view, document.body);
+
+window.onhashchange = () =>
+  main.actions.redirect(window.location.hash.replace("#", ""), "noUpdate");
