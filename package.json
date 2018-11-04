@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "feather-icons": "^4.7.3",
-    "hyperapp": "^1.2.9"
+    "hyperapp": "^1.2.9",
+    "yaml-front-matter": "^4.0.0"
   }
 }

@@ -1,4 +1,7 @@
-# Über Uns
+---
+title: ueber
+name: Über Uns
+---
 
 ## Leiter
 

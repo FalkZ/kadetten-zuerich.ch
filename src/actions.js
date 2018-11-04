@@ -13,7 +13,8 @@ const actions = {
     }
 
     return { ...state, current: url };
-  }
+  },
+  setTitle: title => state => ({ ...state, title })
 };
 
 export default actions;

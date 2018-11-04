@@ -7,9 +7,13 @@ import Nav from "./Nav";
 import { event } from "../dist/content/events.yml";
 import { runMain } from "module";
 
+import { loadFront } from "yaml-front-matter";
+
+console.log(loadFront);
 import schnuppernachmittag from "../content/schnuppernachmittag.md";
 
 import marked from "marked";
+import { pathToFileURL } from "url";
 
 const Chevron = ({ up }) =>
   up ? <Icon name="chevron-up" /> : <Icon name="chevron-down" />;
@@ -100,9 +104,10 @@ const content = {
                 console.log(name.replace(".md", ""), state.current);
                 fetch(download_url)
                   .then(response => response.text())
-                  .then(text => marked(text))
-                  .then(html => {
-                    element.innerHTML = html;
+                  .then(text => loadFront(text))
+                  .then(({ title, name, __content }) => {
+                    actions.setTitle(name);
+                    element.innerHTML = marked(__content);
                   });
               }
             });
@@ -127,13 +132,12 @@ const Content = ({ state, actions }, [child]) => {
   Object.keys(child).forEach(key => {
     if (key === state.current) {
       Current = child[key];
-      title = key;
     }
   });
 
   return (
     <main data-current={state.current}>
-      <h1>{title}</h1>
+      <h1>{state.title}</h1>
       <div id="content">
         <Current {...{ state, actions }} />
       </div>
