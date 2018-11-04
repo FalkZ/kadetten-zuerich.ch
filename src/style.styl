@@ -1,4 +1,5 @@
 black = #26283b;
+blue = #293679;
 oswald =
     font-family: 'Oswald', sans-serif;
     letter-spacing: 0.03em;
@@ -25,7 +26,7 @@ body {
     color: white;
     // font-family: 'Oswald', sans-serif;
     letter-spacing: 0.03em;
-    font-size: 30px;
+    font-size: 35px;
     background: linear-gradient(#293679, #273474);
     padding: 0.6em 1em;
 }
@@ -48,27 +49,69 @@ nav {
     // font-family: 'Oswald', sans-serif;
     font-size: 28px;
     padding: 1em;
-    color: white;
+    color: blue;
+
+    @media (max-width: 1000px) {
+        display: none;
+    }
 
     a {
-        padding: 0.1em 0.25em;
+        background: white;
+        padding: 0.1em 0.6em;
         margin: 0.7em 0;
         display: block;
         cursor: pointer;
-        border-left: 2.5px solid white;
+        border-radius: 1px;
+        display: table;
+        font-weight: 600;
+        position: relative;
+        left: 0;
+        transition: all 0.1s ease-in;
+
+        &:hover {
+            left: 5px;
+        }
     }
 }
 
 main {
-    background: white;
     position: relative;
     top: 0;
-    left: 200px;
+    left: 300px;
+    max-width: calc(100% - 300px);
+
+    @media (max-width: 1000px) {
+        left: 0;
+        max-width: 100%;
+    }
+
     font-family: 'Noto Sans', sans-serif;
     font-size: 20px;
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
+    width: 800px;
+    line-height: 1.6em;
+
+    p {
+        letter-spacing: 0.03em;
+        color: #011635;
+    }
+
+    // margin: 0 auto;
+    strong {
+        font-weight: 600;
+    }
+
+    #content {
+        padding: 20px;
+        background: white;
+        margin: 0 10px;
+    }
+
+    &>h1 {
+        color: blue;
+        font-weight: 600;
+        padding: 20px;
+        text-shadow: 1px 1px 60px white;
+    }
 
     a {
         color: black;
@@ -84,10 +127,18 @@ main {
         }
     }
 
+    blockquote {
+        background: rgba(#BCC9C2, 0.2);
+        margin: 0;
+        padding: 0 40px;
+        display: table;
+        border-left: 4px solid blue;
+    }
+
     table {
         width: 100%;
         border-collapse: collapse;
-        margin: 0 -20px;
+        margin: -20px;
         width: calc(100% + 40px);
 
         td {

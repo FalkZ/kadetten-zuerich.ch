@@ -1,11 +1,17 @@
-import { h } from "hyperapp"
+import { h } from "hyperapp";
 
-import Icon from "./Icon"
+import Icon from "./Icon";
+import Html from "./Html";
 
-import { event } from "../dist/content/events.yml"
+import { event } from "../dist/content/events.yml";
+import { runMain } from "module";
+
+import schnuppernachmittag from "../content/schnuppernachmittag.md";
+
+import marked from "marked";
 
 const Chevron = ({ up }) =>
-  up ? <Icon name="chevron-up" /> : <Icon name="chevron-down" />
+  up ? <Icon name="chevron-up" /> : <Icon name="chevron-down" />;
 
 const Event = ({
   date,
@@ -61,8 +67,56 @@ const Event = ({
     </td>
     <td />
   </tr>
-]
+];
 
+const content = {
+  Programm: ({ state, actions }) => (
+    <table>
+      <tbody>
+        {event.sort((a, b) => b - a).map((props, index) => (
+          <Event
+            index={index}
+            expand={actions.expand}
+            expanded={state.expanded}
+            {...props}
+          />
+        ))}
+      </tbody>
+    </table>
+  ),
+  Schnuppernachmittag: () => (
+    <div
+      oncreate={element => {
+        fetch(schnuppernachmittag)
+          .then(response => response.text())
+          .then(text => marked(text))
+          .then(html => {
+            element.innerHTML = html;
+          });
+      }}
+    />
+  )
+};
+
+const Content = ({ state, actions }, [child]) => {
+  let Current = child.Programm;
+  let title = "Programm";
+  Object.keys(child).forEach(key => {
+    if ("#" + key === window.location.hash) {
+      Current = child[key];
+      title = key;
+    }
+  });
+
+  return (
+    <main>
+      <h1>{title}</h1>
+      <div id="content">
+        <Current {...{ state, actions }} />
+      </div>
+    </main>
+  );
+};
 const view = (state, actions) => (
   <div>
     <div id="titlebar">Kadetten Zürich</div>
@@ -77,22 +131,8 @@ const view = (state, actions) => (
       <a>Über Uns</a>
       <a>set</a>
     </nav>
-    <main>
-      <h1>Programm</h1>
-      <table>
-        <tbody>
-          {event.sort((a, b) => b - a).map((props, index) => (
-            <Event
-              index={index}
-              expand={actions.expand}
-              expanded={state.expanded}
-              {...props}
-            />
-          ))}
-        </tbody>
-      </table>
-    </main>
+    <Content {...{ state, actions }}>{content}</Content>
   </div>
-)
+);
 
-export default view
+export default view;
