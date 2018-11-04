@@ -2,7 +2,7 @@ import { h } from "hyperapp";
 
 const content = [
   { name: "Programm", url: "" },
-  { name: "Über Uns", url: "über-uns" }
+  { name: "Über Uns", url: "ueber" }
 ];
 const Nav = ({ redirect }) => (
   <nav>
