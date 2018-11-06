@@ -11,7 +11,7 @@ collections: # A list of collections the CMS should be able to edit
     files:
       - name: "events"
         label: "Events"
-        file: "content/events.yml"
+        file: "/content/events.yml"
         editor:
           preview: false
         fields:
@@ -30,7 +30,7 @@ collections: # A list of collections the CMS should be able to edit
 
       - name: "navigation"
         label: "Navigation"
-        file: "content/navigation.yml"
+        file: "/content/navigation.yml"
         editor:
           preview: false
         fields:
