@@ -5,12 +5,13 @@ import Html from "./Html";
 import Nav from "./Nav";
 
 import { event } from "../content/events.yml";
+
 import { runMain } from "module";
 
 import { loadFront } from "yaml-front-matter";
 
 console.log(loadFront);
-import schnuppernachmittag from "../content/schnuppernachmittag.md";
+//import schnuppernachmittag from "../content/schnuppernachmittag.md";
 
 import marked from "marked";
 import { pathToFileURL } from "url";
@@ -95,7 +96,7 @@ const content = {
     <div
       oncreate={element => {
         fetch(
-          "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/contents/content"
+          "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/contents/content/pages"
         )
           .then(response => response.json())
           .then(json => {

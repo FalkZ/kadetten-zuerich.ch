@@ -8,12 +8,12 @@ public_folder: "dist"
 collections: # A list of collections the CMS should be able to edit
   - label: "Content"
     name: "content"
+    editor:
+      preview: false
     files:
       - name: "events"
         label: "Events"
-        file: "/content/events.yml"
-        editor:
-          preview: false
+        file: "content/events.yml"
         fields:
           - label: "Event"
             name: "event"
@@ -30,16 +30,20 @@ collections: # A list of collections the CMS should be able to edit
 
       - name: "navigation"
         label: "Navigation"
-        file: "/content/navigation.yml"
-        editor:
-          preview: false
+        file: "content/navigation.yml"
         fields:
           - label: "Item"
             name: "item"
             widget: "list"
             fields:
               - { label: Title, name: title, widget: string, required: true }
-              - { label: URL, name: url, widget: string, required: true }
+              - {
+                  label: URL,
+                  name: url,
+                  widget: string,
+                  required: true,
+                  default: "",
+                }
   - label: Pages
     name: pages
     folder: "content/pages"
