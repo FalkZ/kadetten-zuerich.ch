@@ -1,3 +1,8 @@
+---
+title: schnuppernachmittag
+name: Schnuppernachmittag
+---
+
 > Datum: **14. November**
 >
 > Ort: **[Ort]()**

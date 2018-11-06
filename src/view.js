@@ -4,7 +4,7 @@ import Icon from "./Icon";
 import Html from "./Html";
 import Nav from "./Nav";
 
-import { event } from "../dist/content/events.yml";
+import { event } from "../content/events.yml";
 import { runMain } from "module";
 
 import { loadFront } from "yaml-front-matter";
