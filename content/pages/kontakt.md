@@ -1,5 +1,5 @@
 ---
-path: kontakt
+title: kontakt
 name: Kontakt
 ---
 
