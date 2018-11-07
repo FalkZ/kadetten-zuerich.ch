@@ -6,8 +6,8 @@ const content = [
   { name: "Programm", url: "" },
   { name: "Über Uns", url: "ueber" }
 ];
-const Nav = ({ redirect }) => (
-  <nav>
+const Nav = ({ redirect, menuOpen }) => (
+  <nav class={menuOpen ? "open" : "closed"}>
     {item.map(({ title, url }) => (
       <a onclick={() => redirect(url)}>{title}</a>
     ))}

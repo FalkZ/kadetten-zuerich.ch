@@ -15,21 +15,46 @@ html, body {
     box-sizing: border-box;
 }
 
+#app {
+    overflow-x: hidden;
+    padding-top: 80px;
+}
+
 body {
     margin: 0;
     background: #095859;
     color: black;
 }
 
+a {
+    cursor: pointer;
+}
+
 #titlebar {
-    font-family: 'Noto Sans', sans-serif;
-    color: white;
-    // font-family: 'Oswald', sans-serif;
-    letter-spacing: 0.04em;
-    font-size: 24px;
-    font-weight: 600;
+    top: 0;
     background: linear-gradient(#293679, #273474);
     padding: 1em 1em;
+    color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 2;
+
+    a {
+        padding: 0 10px;
+        color: white;
+        text-decoration: none;
+        font-family: 'Noto Sans', sans-serif;
+        // font-family: 'Oswald', sans-serif;
+        // letter-spacing: 0.04em;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    svg {
+        position: relative;
+        top: 3.5px;
+    }
 }
 
 #background {
@@ -51,9 +76,15 @@ nav {
     font-size: 28px;
     padding: 1em;
     color: blue;
+    left: 0;
+    transition: left 0.3s cubic-bezier(0, 1, 0.5, 1);
 
-    @media (max-width: 1000px) {
-        display: none;
+    &.open {
+        transition-delay: 0.1s;
+    }
+
+    &.closed {
+        left: -300px;
     }
 
     a {
@@ -80,9 +111,14 @@ main {
     top: 0;
     left: 300px;
     max-width: calc(100% - 300px);
+    transition: left 0.3s cubic-bezier(0, 1, 0.5, 1);
+
+    &.closed {
+        transition-delay: 0.1s;
+        left: 0;
+    }
 
     @media (max-width: 1000px) {
-        left: 0;
         max-width: 100%;
     }
 
@@ -104,7 +140,11 @@ main {
     #content {
         padding: 20px;
         background: white;
-        margin: 0 10px;
+        margin: 0 30px;
+
+        @media (max-width: 800px) {
+            margin: 0 10px;
+        }
     }
 
     &>h1 {
@@ -112,6 +152,11 @@ main {
         font-weight: 600;
         padding: 20px;
         text-shadow: 1px 1px 60px white;
+        margin: 20px;
+
+        @media (max-width: 800px) {
+            margin: 20px 0px;
+        }
     }
 
     h2:not(:nth-child(1)) {

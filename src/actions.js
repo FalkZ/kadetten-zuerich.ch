@@ -14,7 +14,8 @@ const actions = {
 
     return { ...state, current: url };
   },
-  setTitle: title => state => ({ ...state, title })
+  setTitle: title => state => ({ ...state, title }),
+  toggleMenu: () => state => ({ ...state, menuOpen: !state.menuOpen })
 };
 
 export default actions;

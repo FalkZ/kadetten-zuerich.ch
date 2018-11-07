@@ -139,7 +139,10 @@ const Content = ({ state, actions }, [child]) => {
   });
 
   return (
-    <main data-current={state.current}>
+    <main
+      data-current={state.current}
+      class={state.menuOpen ? "open" : "closed"}
+    >
       <h1>{state.title}</h1>
       <div id="content">
         <Current {...{ state, actions }} />
@@ -148,15 +151,21 @@ const Content = ({ state, actions }, [child]) => {
   );
 };
 const view = (state, actions) => (
-  <div>
-    <div id="titlebar">KADETTEN ZÜRICH</div>
+  <div id="app">
+    <div id="titlebar">
+      <a onclick={() => actions.toggleMenu()}>
+        {state.menuOpen ? <Icon name="x" /> : ""}
+        {state.menuOpen ? "" : <Icon name="menu" />}
+      </a>
+      <a href="#">Kadetten Zürich</a>
+    </div>
     <img
       id="background"
       alt="background"
       src="https://images.unsplash.com/photo-1507041957456-9c397ce39c97?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dc3500fa9354b6bca48783b36e59c4e0&auto=format&fit=crop&w=934&q=80'); // images.unsplash.com/photo-1507041957456-9c397ce39c97?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dc3500fa9354b6bca48783b36e59c4e0&auto=format&fit=crop&w=934&q=80"
     />
 
-    <Nav redirect={actions.redirect} />
+    <Nav redirect={actions.redirect} menuOpen={state.menuOpen} />
     <Content {...{ state, actions }}>{content}</Content>
   </div>
 );

@@ -1,16 +1,16 @@
-import { h } from "hyperapp"
+import { h } from "hyperapp";
 
-import { icons } from "feather-icons"
+import { icons } from "feather-icons";
 
-const svg = ({ attrs, contents }) => (
+const svg = ({ attrs, contents } = { attrs: {} }) => (
   <svg
     {...attrs}
     oncreate={element => {
-      element.innerHTML = contents
+      element.innerHTML = contents;
     }}
   />
-)
+);
 
-const Icon = ({ name }) => svg(icons[name])
+const Icon = ({ name }) => svg(icons[name]);
 
-export default Icon
+export default Icon;
