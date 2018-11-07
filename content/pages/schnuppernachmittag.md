@@ -1,22 +1,23 @@
 ---
 title: schnuppernachmittag
-mame: Schnuppernachmittag
+name: Schnuppernachmittag
 ---
+
 > Datum: **14. November**
 >
-> Ort: **[Ort](<>)**
+> Ort: **[Ort]()**
 >
 > Zeit: **14:00 - 17:00**
 
 ## Was
 
-Willst du dich durchs Dickicht schlagen, das Feuer entfachen und im Zelt übernachten? 
+Willst du dich durchs Dickicht schlagen, das Feuer entfachen und im Zelt übernachten?
 
 Am Samstag, dem 14. November, von 14 bis 17 Uhr hat Ihr Kind die Gelegenheit bei den Kadetten zu schnuppern.
 
 Wir zeigen an diesem Nachmittag Ihrem Kind im Wald oberhalb Zürichs einen Ausschnitt von dem, was es mit den Kadetten alles erleben kann.
 
-Die Eltern erhalten bei der **Tramhaltestelle Strassenverkehrsamt** von Leitung und Vorstand weitere Informationen und Unterlagen. 
+Die Eltern erhalten bei der **Tramhaltestelle Strassenverkehrsamt** von Leitung und Vorstand weitere Informationen und Unterlagen.
 
 **PS:** Wenn der 4. Juni nicht passt: bei uns kann man jederzeit reinschauen. **Am Samstag, 18. Juni, treffen wir uns im Friesenberg wieder.**
 
@@ -32,5 +33,5 @@ Die Eltern erhalten bei der **Tramhaltestelle Strassenverkehrsamt** von Leitung 
 
 Bei **Fragen** oder zur **Anmeldung** könnt ihr euch gerne bei Christian Hartmann melden:
 
-* [christian.hartmann@kadetten.ch](mailto:christian.hartmann@kadetten.ch?subject=Kadetten-Schnuppernachmittag)
-* 076 6
+- [christian.hartmann@kadetten.ch](mailto:christian.hartmann@kadetten.ch?subject=Kadetten-Schnuppernachmittag)
+- 076 6

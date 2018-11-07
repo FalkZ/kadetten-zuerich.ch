@@ -52,5 +52,5 @@ collections: # A list of collections the CMS should be able to edit
       preview: false
     fields:
       - { label: Path, name: title, widget: string, required: true }
-      - { label: Title, name: mame, widget: string, required: true }
+      - { label: Title, name: name, widget: string, required: true }
       - { label: Body, name: body, widget: markdown, required: true }
