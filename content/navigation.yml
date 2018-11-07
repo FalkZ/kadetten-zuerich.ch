@@ -1,10 +1,10 @@
 item:
   - title: Über Uns
     url: ueber
-  - title: Ausrüstung
-    url: ausruestung
   - title: Programm
     url: programm
+  - title: Ausrüstung
+    url: ausruestung
   - title: Mitmachen
     url: mitmachen
   - title: Links
