@@ -19,9 +19,9 @@ Die Eltern erhalten bei der **Bushaltestelle Dunkelhölzli** von Leitung und Vor
 
 **PS:** Wenn der 14. November nicht passt: bei uns kann man jederzeit reinschauen.
 
-![IMG_3063](http://zuerich.kadetten.ch/wp-content/uploads/2011/03/IMG_3063-300x200.jpg)
+![Zelt](pictures/zelt.jpg)
 
-![28](http://zuerich.kadetten.ch/wp-content/uploads/2016/03/28-300x169.jpg)
+![Brunnen](pictures/wasser.jpg)
 
 **Download:** [Einladung und Informationen](files\Einladung 2018-03-03 Dunkelhölzli.pdf)
 
