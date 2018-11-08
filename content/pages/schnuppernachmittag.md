@@ -9,7 +9,7 @@ name: Schnuppernachmittag
 >
 > Zeit: **14:00 - 17:00**
 
-## Was
+## Infos
 
 Am Samstag, dem 14. November, von 14 bis 17 Uhr hat Ihr Kind die Gelegenheit bei den Kadetten zu schnuppern.
 
@@ -23,9 +23,9 @@ Die Eltern erhalten bei der **Bushaltestelle Dunkelhölzli** von Leitung und Vor
 
 ![Brunnen](pictures/wasser.jpg)
 
-**Download:** [Einladung und Informationen](files\Einladung 2018-03-03 Dunkelhölzli.pdf)
+**Download:** [Einladung und Informationen](files\Einladung-2018-03-03-Dunkelhölzli.pdf)
 
-**Download:** [Wir stellen uns vor](files\Kadetten Zürich - Wir stellen uns vor.pdf)
+**Download:** [Wir stellen uns vor](files\Kadetten-Zürich-Wir-stellen-uns-vor.pdf)
 
 ## Kontakt
 
