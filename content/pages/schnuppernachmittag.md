@@ -23,7 +23,7 @@ Die Eltern erhalten bei der **Bushaltestelle Dunkelhölzli** von Leitung und Vor
 
 ![Brunnen](pictures/wasser.jpg)
 
-**Download:** [Einladung und Informationen](files/Einladung-2018-03-03-Dunkelhölzli.pdf)
+**Download:** [Einladung und Informationen](files/Einladung-2018-11-17.pdf)
 
 **Download:** [Wir stellen uns vor](files/Kadetten-Zürich-Wir-stellen-uns-vor.pdf)
 
