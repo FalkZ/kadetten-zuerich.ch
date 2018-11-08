@@ -8,14 +8,6 @@ import { event } from "../content/events.yml";
 
 import { runMain } from "module";
 
-import { loadFront } from "yaml-front-matter";
-
-console.log(loadFront);
-//import schnuppernachmittag from "../content/schnuppernachmittag.md";
-
-import marked from "marked";
-import { pathToFileURL } from "url";
-
 const Chevron = ({ up }) =>
   up ? <Icon name="chevron-up" /> : <Icon name="chevron-down" />;
 
@@ -94,31 +86,8 @@ const content = {
   // },
   default: ({ state, actions }) => (
     <div
-      oncreate={element => {
-        fetch(
-          "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/contents/content/pages"
-        )
-          .then(response => response.json())
-          .then(json => {
-            let match = false;
-            json.map(({ name, download_url }) => {
-              if (name.replace(".md", "") === state.current) {
-                match = true;
-                console.log(name.replace(".md", ""), state.current);
-                fetch(download_url)
-                  .then(response => response.text())
-                  .then(text => loadFront(text))
-                  .then(({ title, name, __content }) => {
-                    actions.setTitle(name);
-                    element.innerHTML = marked(__content);
-                  });
-              }
-            });
-            if (!match) {
-              actions.redirect("");
-            }
-          });
-      }}
+      data-current={state.current}
+      oncreate={element => actions.redirect(state.current)}
     />
   )
 };

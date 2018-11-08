@@ -1,0 +1,114 @@
+[
+  {
+    "name": "ausruestung.md",
+    "path": "content/pages/ausruestung.md",
+    "sha": "e711cc7ae645cf338b8761c8a801e2edbb1b86fa",
+    "size": 1863,
+    "url": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/contents/content/pages/ausruestung.md?ref=master",
+    "html_url": "https://github.com/FalkZ/kadetten-zuerich.ch/blob/master/content/pages/ausruestung.md",
+    "git_url": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/git/blobs/e711cc7ae645cf338b8761c8a801e2edbb1b86fa",
+    "download_url": "https://raw.githubusercontent.com/FalkZ/kadetten-zuerich.ch/master/content/pages/ausruestung.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/contents/content/pages/ausruestung.md?ref=master",
+      "git": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/git/blobs/e711cc7ae645cf338b8761c8a801e2edbb1b86fa",
+      "html": "https://github.com/FalkZ/kadetten-zuerich.ch/blob/master/content/pages/ausruestung.md"
+    }
+  },
+  {
+    "name": "kontakt.md",
+    "path": "content/pages/kontakt.md",
+    "sha": "85f8920d0a6bd30fc8d832bf141b73f984fc7cca",
+    "size": 127,
+    "url": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/contents/content/pages/kontakt.md?ref=master",
+    "html_url": "https://github.com/FalkZ/kadetten-zuerich.ch/blob/master/content/pages/kontakt.md",
+    "git_url": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/git/blobs/85f8920d0a6bd30fc8d832bf141b73f984fc7cca",
+    "download_url": "https://raw.githubusercontent.com/FalkZ/kadetten-zuerich.ch/master/content/pages/kontakt.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/contents/content/pages/kontakt.md?ref=master",
+      "git": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/git/blobs/85f8920d0a6bd30fc8d832bf141b73f984fc7cca",
+      "html": "https://github.com/FalkZ/kadetten-zuerich.ch/blob/master/content/pages/kontakt.md"
+    }
+  },
+  {
+    "name": "links.md",
+    "path": "content/pages/links.md",
+    "sha": "f6d12882c7b43ca719a67cd10a56c2a934aea0e0",
+    "size": 1415,
+    "url": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/contents/content/pages/links.md?ref=master",
+    "html_url": "https://github.com/FalkZ/kadetten-zuerich.ch/blob/master/content/pages/links.md",
+    "git_url": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/git/blobs/f6d12882c7b43ca719a67cd10a56c2a934aea0e0",
+    "download_url": "https://raw.githubusercontent.com/FalkZ/kadetten-zuerich.ch/master/content/pages/links.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/contents/content/pages/links.md?ref=master",
+      "git": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/git/blobs/f6d12882c7b43ca719a67cd10a56c2a934aea0e0",
+      "html": "https://github.com/FalkZ/kadetten-zuerich.ch/blob/master/content/pages/links.md"
+    }
+  },
+  {
+    "name": "mitmachen.md",
+    "path": "content/pages/mitmachen.md",
+    "sha": "365fd899c785fd9809bc8376004c88f0efc6ead5",
+    "size": 2022,
+    "url": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/contents/content/pages/mitmachen.md?ref=master",
+    "html_url": "https://github.com/FalkZ/kadetten-zuerich.ch/blob/master/content/pages/mitmachen.md",
+    "git_url": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/git/blobs/365fd899c785fd9809bc8376004c88f0efc6ead5",
+    "download_url": "https://raw.githubusercontent.com/FalkZ/kadetten-zuerich.ch/master/content/pages/mitmachen.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/contents/content/pages/mitmachen.md?ref=master",
+      "git": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/git/blobs/365fd899c785fd9809bc8376004c88f0efc6ead5",
+      "html": "https://github.com/FalkZ/kadetten-zuerich.ch/blob/master/content/pages/mitmachen.md"
+    }
+  },
+  {
+    "name": "programm.md",
+    "path": "content/pages/programm.md",
+    "sha": "57e0f7e1b3f43943607148a9e7e8c7d017208552",
+    "size": 7826,
+    "url": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/contents/content/pages/programm.md?ref=master",
+    "html_url": "https://github.com/FalkZ/kadetten-zuerich.ch/blob/master/content/pages/programm.md",
+    "git_url": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/git/blobs/57e0f7e1b3f43943607148a9e7e8c7d017208552",
+    "download_url": "https://raw.githubusercontent.com/FalkZ/kadetten-zuerich.ch/master/content/pages/programm.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/contents/content/pages/programm.md?ref=master",
+      "git": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/git/blobs/57e0f7e1b3f43943607148a9e7e8c7d017208552",
+      "html": "https://github.com/FalkZ/kadetten-zuerich.ch/blob/master/content/pages/programm.md"
+    }
+  },
+  {
+    "name": "schnuppernachmittag.md",
+    "path": "content/pages/schnuppernachmittag.md",
+    "sha": "805053ce6b528e8c00b0ff9952b73778350e8c0a",
+    "size": 1124,
+    "url": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/contents/content/pages/schnuppernachmittag.md?ref=master",
+    "html_url": "https://github.com/FalkZ/kadetten-zuerich.ch/blob/master/content/pages/schnuppernachmittag.md",
+    "git_url": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/git/blobs/805053ce6b528e8c00b0ff9952b73778350e8c0a",
+    "download_url": "https://raw.githubusercontent.com/FalkZ/kadetten-zuerich.ch/master/content/pages/schnuppernachmittag.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/contents/content/pages/schnuppernachmittag.md?ref=master",
+      "git": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/git/blobs/805053ce6b528e8c00b0ff9952b73778350e8c0a",
+      "html": "https://github.com/FalkZ/kadetten-zuerich.ch/blob/master/content/pages/schnuppernachmittag.md"
+    }
+  },
+  {
+    "name": "ueber.md",
+    "path": "content/pages/ueber.md",
+    "sha": "a03b9d104318a6df78c03432f9b661fe6f3f162c",
+    "size": 7259,
+    "url": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/contents/content/pages/ueber.md?ref=master",
+    "html_url": "https://github.com/FalkZ/kadetten-zuerich.ch/blob/master/content/pages/ueber.md",
+    "git_url": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/git/blobs/a03b9d104318a6df78c03432f9b661fe6f3f162c",
+    "download_url": "https://raw.githubusercontent.com/FalkZ/kadetten-zuerich.ch/master/content/pages/ueber.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/contents/content/pages/ueber.md?ref=master",
+      "git": "https://api.github.com/repos/FalkZ/kadetten-zuerich.ch/git/blobs/a03b9d104318a6df78c03432f9b661fe6f3f162c",
+      "html": "https://github.com/FalkZ/kadetten-zuerich.ch/blob/master/content/pages/ueber.md"
+    }
+  }
+]

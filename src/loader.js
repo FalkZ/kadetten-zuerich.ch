@@ -9,5 +9,5 @@ import actions from "./actions";
 
 const main = app(state, actions, view, document.body);
 
-window.onhashchange = () =>
-  main.actions.redirect(window.location.hash.replace("#", ""), "noUpdate");
+// window.onhashchange = () =>
+//   main.actions.redirect(window.location.hash.replace("#", ""), "noUpdate");
