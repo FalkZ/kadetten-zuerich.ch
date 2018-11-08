@@ -32,4 +32,4 @@ Die Eltern erhalten bei der **Bushaltestelle Dunkelhölzli** von Leitung und Vor
 Bei **Fragen** oder zur **Anmeldung** könnt ihr euch gerne bei Christian Hartmann melden:
 
 - [christian.hartmann@kadetten.ch](mailto:christian.hartmann@kadetten.ch?subject=Kadetten-Schnuppernachmittag)
-- 076 6
+- 079 405 88 53
