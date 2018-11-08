@@ -11,7 +11,7 @@ const actions = {
     return { ...state, expanded: date };
   },
   update: content => state => ({ ...state, content }),
-  redirect: (url, noUpdate) => (state, actions) => {
+  redirect: url => (state, actions) => {
     console.log(url);
 
     window.location.hash = url;
@@ -22,6 +22,9 @@ const actions = {
     //   .then(response => response.json())
     //   .then(json => {
     let match = false;
+    if (url === "") {
+      url = "index";
+    }
     files.map(({ name, download_url }) => {
       if (name.replace(".md", "") === url) {
         match = true;

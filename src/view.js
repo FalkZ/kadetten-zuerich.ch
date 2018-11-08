@@ -126,7 +126,7 @@ const view = (state, actions) => (
         {state.menuOpen ? <Icon name="x" /> : ""}
         {state.menuOpen ? "" : <Icon name="menu" />}
       </a>
-      <a href="#">Kadetten Zürich</a>
+      <a onclick={() => actions.redirect("")}>Kadetten Zürich</a>
     </div>
     <img
       id="background"
