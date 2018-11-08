@@ -15,5 +15,5 @@ if (window.location.hash === "") {
   main.redirect("");
 }
 
-// window.onhashchange = () =>
-//   main.actions.redirect(window.location.hash.replace("#", ""), "noUpdate");
+window.onhashchange = () =>
+  main.redirect(window.location.hash.replace("#", ""));
