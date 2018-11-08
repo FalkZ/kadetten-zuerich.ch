@@ -5,29 +5,27 @@ name: Schnuppernachmittag
 
 > Datum: **14. November**
 >
-> Ort: **[Ort]()**
+> Ort: **[Bushaltestelle Dunkelhölzli](https://goo.gl/maps/F3WATzoKCWH2)**
 >
 > Zeit: **14:00 - 17:00**
 
 ## Was
 
-Willst du dich durchs Dickicht schlagen, das Feuer entfachen und im Zelt übernachten?
-
 Am Samstag, dem 14. November, von 14 bis 17 Uhr hat Ihr Kind die Gelegenheit bei den Kadetten zu schnuppern.
 
 Wir zeigen an diesem Nachmittag Ihrem Kind im Wald oberhalb Zürichs einen Ausschnitt von dem, was es mit den Kadetten alles erleben kann.
 
-Die Eltern erhalten bei der **Tramhaltestelle Strassenverkehrsamt** von Leitung und Vorstand weitere Informationen und Unterlagen.
+Die Eltern erhalten bei der **Bushaltestelle Dunkelhölzli** von Leitung und Vorstand weitere Informationen und Unterlagen.
 
-**PS:** Wenn der 4. Juni nicht passt: bei uns kann man jederzeit reinschauen. **Am Samstag, 18. Juni, treffen wir uns im Friesenberg wieder.**
+**PS:** Wenn der 14. November nicht passt: bei uns kann man jederzeit reinschauen.
 
 [![IMG_3063](http://zuerich.kadetten.ch/wp-content/uploads/2011/03/IMG_3063-300x200.jpg)](http://zuerich.kadetten.ch/wp-content/uploads/2011/03/IMG_3063.jpg)
 
 [![28](http://zuerich.kadetten.ch/wp-content/uploads/2016/03/28-300x169.jpg)](http://zuerich.kadetten.ch/wp-content/uploads/2016/03/28.jpg)
 
-**Download:** [Einladung und Informationen](http://zuerich.kadetten.ch/wp-content/uploads/2016/05/Einladung-2016-06-04-Strassenverkehrsamt.pdf)
+**Download:** [Einladung und Informationen](files\Einladung 2018-03-03 Dunkelhölzli.pdf)
 
-**Download:** [Wir stellen uns vor](http://zuerich.kadetten.ch/wp-content/uploads/2015/03/Kadetten-Zürich-Wir-stellen-uns-vor.pdf)
+**Download:** [Wir stellen uns vor](files\Kadetten Zürich - Wir stellen uns vor.pdf)
 
 ## Kontakt
 
