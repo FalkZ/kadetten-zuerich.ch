@@ -43,6 +43,10 @@ const actions = {
     }
     // });
 
+    if (url === "index") {
+      url = "";
+    }
+
     return { ...state, current: url };
   },
   setTitle: title => state => ({ ...state, title }),
