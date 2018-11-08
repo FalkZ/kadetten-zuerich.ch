@@ -2,7 +2,6 @@
 title: schnuppernachmittag
 name: Schnuppernachmittag
 ---
-
 > Datum: **14. November**
 >
 > Ort: **[Bushaltestelle Dunkelhölzli](https://goo.gl/maps/F3WATzoKCWH2)**
@@ -17,7 +16,7 @@ Wir zeigen an diesem Nachmittag Ihrem Kind im Wald oberhalb Zürichs einen Aussc
 
 Die Eltern erhalten bei der **Bushaltestelle Dunkelhölzli** von Leitung und Vorstand weitere Informationen und Unterlagen.
 
-**PS:** Wenn der 14. November nicht passt: bei uns kann man jederzeit reinschauen.
+**PS:** Wenn der 14. November nicht passt: Am 1. Dezember gibt es eine weitere Möglichkeit in Albisrieden.
 
 ![Zelt](pictures/zelt.jpg)
 
@@ -29,7 +28,7 @@ Die Eltern erhalten bei der **Bushaltestelle Dunkelhölzli** von Leitung und Vor
 
 ## Kontakt
 
-Bei **Fragen** oder zur **Anmeldung** könnt ihr euch gerne bei Christian Hartmann melden:
+Bei **Fragen** oder zur **Anmeldung** können Sie sich gerne bei Christian Hartmann melden:
 
-- [christian.hartmann@kadetten.ch](mailto:christian.hartmann@kadetten.ch?subject=Kadetten-Schnuppernachmittag)
-- 079 405 88 53
+* [christian.hartmann@kadetten.ch](mailto:christian.hartmann@kadetten.ch?subject=Kadetten-Schnuppernachmittag)
+* 079 405 88 53
