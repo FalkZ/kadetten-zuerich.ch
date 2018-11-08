@@ -19,9 +19,13 @@ Die Eltern erhalten bei der **Bushaltestelle Dunkelhölzli** von Leitung und Vor
 
 **PS:** Wenn der 14. November nicht passt: bei uns kann man jederzeit reinschauen.
 
+<span>
+
 ![Zelt](pictures/zelt.jpg)
 
 ![Brunnen](pictures/wasser.jpg)
+
+</span>
 
 **Download:** [Einladung und Informationen](files\Einladung-2018-03-03-Dunkelhölzli.pdf)
 
