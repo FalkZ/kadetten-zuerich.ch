@@ -29,4 +29,4 @@ Im Jahresbeitrag nicht inbegriffen sind die **Teilnehmerbeiträge** für Lager, 
 
 **Neuaufnahmen erfolgen während des ganzen Jahres.**
 
-[Anmeldung Kadetten (pdf)](/static/Anmeldung-Kadetten.da55676d.pdf)
+[Anmeldung Kadetten (pdf)](files/Anmeldung-Kadetten.pdf)

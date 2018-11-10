@@ -49,7 +49,10 @@ const actions = {
 
     return { ...state, current: url };
   },
-  setTitle: title => state => ({ ...state, title }),
+  setTitle: title => state => {
+    window.scrollTo(0, 0);
+    return { ...state, title };
+  },
   toggleMenu: () => state => ({ ...state, menuOpen: !state.menuOpen })
 };
 

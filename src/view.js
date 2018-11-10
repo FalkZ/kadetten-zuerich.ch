@@ -112,7 +112,7 @@ const Content = ({ state, actions }, [child]) => {
       data-current={state.current}
       class={state.menuOpen ? "open" : "closed"}
     >
-      <h1>{state.title}</h1>
+      <h1 id={state.current}>{state.title}</h1>
       <div id="content">
         <Current {...{ state, actions }} />
       </div>
