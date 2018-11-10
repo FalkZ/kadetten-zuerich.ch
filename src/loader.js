@@ -11,7 +11,7 @@ const main = app(state, actions, view, document.body);
 
 console.log(main);
 
-if (window.location.hash === "") {
+if (!window.location.hash) {
   main.redirect("");
 }
 
