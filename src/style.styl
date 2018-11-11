@@ -33,12 +33,16 @@ a {
 #titlebar {
     top: 0;
     background: linear-gradient(#293679, #273474);
-    padding: 1em 1em;
+    padding: 1.5em 1em;
     color: white;
     position: fixed;
     left: 0;
     right: 0;
     z-index: 2;
+
+    @media (max-width: 800px) {
+        padding: 2em 1em;
+    }
 
     img {
         float: right;
