@@ -8,6 +8,8 @@ import { event } from "../content/events.yml";
 
 import { runMain } from "module";
 
+import logo from "./logos/kadetten-zürich-logo-weiss.svg";
+
 const Chevron = ({ up }) =>
   up ? <Icon name="chevron-up" /> : <Icon name="chevron-down" />;
 
@@ -127,6 +129,7 @@ const view = (state, actions) => (
         {state.menuOpen ? "" : <Icon name="menu" />}
       </a>
       <a onclick={() => actions.redirect("")}>Kadetten Zürich</a>
+      <img src={logo} />
     </div>
     <img
       id="background"
