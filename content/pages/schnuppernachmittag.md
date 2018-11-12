@@ -10,7 +10,7 @@ name: Schnuppernachmittag
 
 ## Infos
 
-Am Samstag, dem 14. November, von 14 bis 17 Uhr hat Ihr Kind die Gelegenheit bei den Kadetten zu schnuppern.
+Am Samstag, dem 14. November, von 14 bis 17 Uhr, hat Ihr Kind die Gelegenheit bei den Kadetten zu schnuppern.
 
 Wir zeigen an diesem Nachmittag Ihrem Kind im Wald oberhalb Zürichs einen Ausschnitt von dem, was es mit den Kadetten alles erleben kann. Die Teilnahme ist kostenlos.
 
