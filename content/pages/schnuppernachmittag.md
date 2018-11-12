@@ -26,7 +26,7 @@ Die Eltern erhalten bei der **Bushaltestelle Dunkelhölzli** von Leitung und Vor
 
 ![Brunnen](pictures/wasser.jpg)
 
-## Kontakt
+## Anmeldung
 
 Bei **Fragen** oder zur **Anmeldung** können Sie sich gerne an Christian Hartmann wenden:
 
