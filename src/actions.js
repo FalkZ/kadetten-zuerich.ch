@@ -1,5 +1,5 @@
 import { loadFront } from 'yaml-front-matter';
-import { event } from '../content/pictures.yml';
+import { picture } from '../content/pictures.yml';
 import gallery from 'gallery';
 
 import marked from 'marked';
@@ -46,13 +46,13 @@ const actions = {
         actions.setTitle('Bilder');
 
         const c = document.getElementById('content');
-        c.innerHTML = event
+        c.innerHTML = picture
           .map(
             url =>
               `<img class="galleryImages" src="${url.replace(
                 '/dist',
-                'pictures'
-              )}" data-gallery-src="${url.replace('/dist', 'pictures')}" />`
+                ''
+              )}" data-gallery-src="${url.replace('/dist', '')}" />`
           )
           .join('');
 
