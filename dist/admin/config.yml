@@ -3,7 +3,7 @@ backend:
   branch: master
 
 media_folder: 'dist/pictures' # Folder where user uploaded files should go
-public_folder: 'dist'
+#public_folder: 'dist'
 
 collections: # A list of collections the CMS should be able to edit
   - label: 'Content'
@@ -15,8 +15,8 @@ collections: # A list of collections the CMS should be able to edit
         label: 'Pictures'
         file: 'content/pictures.yml'
         fields:
-          - label: 'Event'
-            name: 'event'
+          - label: 'Pictures'
+            name: 'picture'
             widget: 'list'
             field: { label: Picture, name: title, widget: image }
 
