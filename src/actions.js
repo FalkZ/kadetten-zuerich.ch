@@ -1,4 +1,6 @@
 import { loadFront } from 'yaml-front-matter';
+import { event } from '../content/pictures.yml';
+import gallery from 'gallery';
 
 import marked from 'marked';
 import { pathToFileURL } from 'url';
@@ -42,7 +44,19 @@ const actions = {
     if (!match) {
       if (url === 'bilder') {
         actions.setTitle('Bilder');
-        document.getElementById('content').innerHTML = marked('# yay');
+
+        const c = document.getElementById('content');
+        c.innerHTML = event
+          .map(
+            url =>
+              `<img class="galleryImages" src="${url.replace(
+                '/dist',
+                'pictures'
+              )}" data-gallery-src="${url.replace('/dist', 'pictures')}" />`
+          )
+          .join('');
+
+        gallery(c);
       } else {
         actions.redirect('');
       }
