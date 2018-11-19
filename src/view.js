@@ -1,14 +1,14 @@
-import { h } from "hyperapp";
+import { h } from 'hyperapp';
 
-import Icon from "./Icon";
-import Html from "./Html";
-import Nav from "./Nav";
+import Icon from './Icon';
+import Html from './Html';
+import Nav from './Nav';
 
-import { event } from "../content/events.yml";
+import { event } from '../content/events.yml';
 
-import { runMain } from "module";
+import { runMain } from 'module';
 
-import logo from "./logos/kadetten-zürich-logo-weiss.svg";
+import logo from './logos/kadetten-zürich-logo-weiss.svg';
 
 const Chevron = ({ up }) =>
   up ? <Icon name="chevron-up" /> : <Icon name="chevron-down" />;
@@ -24,31 +24,31 @@ const Event = ({
   expanded
 }) => [
   <tr
-    class={index % 2 === 0 ? "even" : "odd"}
+    class={index % 2 === 0 ? 'even' : 'odd'}
     onclick={() => (date === expanded ? expand(null) : expand(date))}
   >
     <td>{date.toLocaleDateString()}</td>
     <td>
-      {" "}
+      {' '}
       <strong>{title}</strong>
     </td>
     <td>
       {date.getHours() +
-        ":" +
-        (date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes())}
+        ':' +
+        (date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes())}
     </td>
 
     <td>
-      <a class={date === expanded ? "rotate" : ""}>
+      <a class={date === expanded ? 'rotate' : ''}>
         <Icon name="chevron-down" />
       </a>
     </td>
   </tr>,
   <tr
     class={
-      "second " +
-      (index % 2 === 0 ? "even" : "odd") +
-      (date === expanded ? "" : " hide")
+      'second ' +
+      (index % 2 === 0 ? 'even' : 'odd') +
+      (date === expanded ? '' : ' hide')
     }
     onclick={() => (date === expanded ? expand(null) : expand(date))}
   >
@@ -56,14 +56,14 @@ const Event = ({
     <td>
       <a href={place}>
         <Icon name="map" />
-        {" Strassenverkehrsamt"}
+        {' Strassenverkehrsamt'}
       </a>
     </td>
     <td>
-      {"- " +
+      {'- ' +
         date.getHours() +
-        ":" +
-        (date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes())}
+        ':' +
+        (date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes())}
     </td>
     <td />
   </tr>
@@ -86,6 +86,7 @@ const content = {
   //     </table>
   //   );
   // },
+
   default: ({ state, actions }) => (
     <div
       data-current={state.current}
@@ -96,13 +97,13 @@ const content = {
 
 const Content = ({ state, actions }, [child]) => {
   let Current;
-  if (state.current === "") {
+  if (state.current === '') {
     Current = child.programm;
   } else {
     Current = child.default;
   }
 
-  let title = "Programm";
+  let title = 'Programm';
   Object.keys(child).forEach(key => {
     if (key === state.current) {
       Current = child[key];
@@ -112,7 +113,7 @@ const Content = ({ state, actions }, [child]) => {
   return (
     <main
       data-current={state.current}
-      class={state.menuOpen ? "open" : "closed"}
+      class={state.menuOpen ? 'open' : 'closed'}
     >
       <h1 id={state.current}>{state.title}</h1>
       <div id="content">
@@ -125,10 +126,10 @@ const view = (state, actions) => (
   <div id="app">
     <div id="titlebar">
       <a onclick={() => actions.toggleMenu()}>
-        {state.menuOpen ? <Icon name="x" /> : ""}
-        {state.menuOpen ? "" : <Icon name="menu" />}
+        {state.menuOpen ? <Icon name="x" /> : ''}
+        {state.menuOpen ? '' : <Icon name="menu" />}
       </a>
-      <a onclick={() => actions.redirect("")}>Kadetten Zürich</a>
+      <a onclick={() => actions.redirect('')}>Kadetten Zürich</a>
       <img src={logo} />
     </div>
     <img
