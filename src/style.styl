@@ -176,6 +176,12 @@ main {
         width: auto;
         height: 260px;
         display: inline-block;
+        box-sizing: border-box;
+
+        @media (max-width: 800px) {
+            width: 100%;
+            height: auto;
+        }
     }
 
     span {
