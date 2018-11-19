@@ -1,9 +1,9 @@
-import { loadFront } from "yaml-front-matter";
+import { loadFront } from 'yaml-front-matter';
 
-import marked from "marked";
-import { pathToFileURL } from "url";
+import marked from 'marked';
+import { pathToFileURL } from 'url';
 
-import files from "./files.json";
+import files from './files.json';
 
 const actions = {
   expand: date => state => {
@@ -22,29 +22,35 @@ const actions = {
     //   .then(response => response.json())
     //   .then(json => {
     let match = false;
-    if (url === "") {
-      url = "index";
+    if (url === '') {
+      url = 'index';
     }
     files.map(({ name, download_url }) => {
-      if (name.replace(".md", "") === url) {
+      if (name.replace('.md', '') === url) {
         match = true;
-        console.log(name.replace(".md", ""), state.current);
+        console.log(name.replace('.md', ''), state.current);
         fetch(download_url)
           .then(response => response.text())
           .then(text => loadFront(text))
           .then(({ title, name, __content }) => {
             actions.setTitle(name);
-            document.getElementById("content").innerHTML = marked(__content);
+            document.getElementById('content').innerHTML = marked(__content);
           });
       }
     });
+
     if (!match) {
-      actions.redirect("");
+      if (url === 'bilder') {
+        actions.setTitle('Bilder');
+        document.getElementById('content').innerHTML = marked('# yay');
+      } else {
+        actions.redirect('');
+      }
     }
     // });
 
-    if (url === "index") {
-      url = "";
+    if (url === 'index') {
+      url = '';
     }
 
     return { ...state, current: url };

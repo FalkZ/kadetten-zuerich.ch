@@ -2,22 +2,31 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: "dist/pictures" # Folder where user uploaded files should go
-public_folder: "dist"
+media_folder: 'dist/pictures' # Folder where user uploaded files should go
+public_folder: 'dist'
 
 collections: # A list of collections the CMS should be able to edit
-  - label: "Content"
-    name: "content"
+  - label: 'Content'
+    name: 'content'
     editor:
       preview: false
     files:
-      - name: "events"
-        label: "Events"
-        file: "content/events.yml"
+      - name: 'pictures'
+        label: 'Pictures'
+        file: 'content/pictures.yml'
         fields:
-          - label: "Event"
-            name: "event"
-            widget: "list"
+          - label: 'Event'
+            name: 'event'
+            widget: 'list'
+            field: { label: Picture, name: title, widget: image }
+
+      - name: 'events'
+        label: 'Events'
+        file: 'content/events.yml'
+        fields:
+          - label: 'Event'
+            name: 'event'
+            widget: 'list'
             fields:
               - { label: Titel, name: title, widget: string, required: true }
               - {
@@ -28,13 +37,13 @@ collections: # A list of collections the CMS should be able to edit
                 }
               - { label: Place, name: place, widget: string, required: true }
 
-      - name: "navigation"
-        label: "Navigation"
-        file: "content/navigation.yml"
+      - name: 'navigation'
+        label: 'Navigation'
+        file: 'content/navigation.yml'
         fields:
-          - label: "Item"
-            name: "item"
-            widget: "list"
+          - label: 'Item'
+            name: 'item'
+            widget: 'list'
             fields:
               - { label: Title, name: title, widget: string, required: true }
               - {
@@ -42,11 +51,11 @@ collections: # A list of collections the CMS should be able to edit
                   name: url,
                   widget: string,
                   required: true,
-                  default: "",
+                  default: '',
                 }
   - label: Pages
     name: pages
-    folder: "content/pages"
+    folder: 'content/pages'
     create: true
     editor:
       preview: false
