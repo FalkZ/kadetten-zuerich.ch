@@ -2,9 +2,9 @@
 title: schnuppernachmittag
 name: Schnuppernachmittag
 ---
-> Datum: **14. November**
+> Datum: **1. Dezember**
 >
-> Ort: **[Bushaltestelle Dunkelhölzli](https://goo.gl/maps/F3WATzoKCWH2)**
+> Ort: Schulhaus Untermoos Albisrieden (Bushaltestelle Untermoosstrasse)
 >
 > Zeit: **14:00 - 17:00**
 
@@ -14,13 +14,13 @@ Am Samstag, dem 14. November, von 14 bis 17 Uhr, hat Ihr Kind die Gelegenheit be
 
 Wir zeigen an diesem Nachmittag Ihrem Kind im Wald oberhalb Zürichs einen Ausschnitt von dem, was es mit den Kadetten alles erleben kann. Die Teilnahme ist kostenlos.
 
-Die Eltern erhalten bei der **Bushaltestelle Dunkelhölzli** von Leitung und Vorstand weitere Informationen und Unterlagen.
+Die Eltern erhalten beim **Schulhaus Untermoos **von Leitung und Vorstand weitere Informationen und Unterlagen.
 
 **Download:** [Einladung und Informationen](files/Einladung-2018-11-17.pdf)
 
 **Download:** [Wir stellen uns vor](files/Kadetten-Zürich-Wir-stellen-uns-vor.pdf)
 
-**PS:** Wenn der 14. November nicht passt: Am 1. Dezember gibt es eine weitere Möglichkeit in Albisrieden.
+**PS:** Wenn der 1. Dezember nicht passt: Am 12. Januar gibt es eine weitere Möglichkeit in Albisrieden.
 
 ![Zelt](pictures/zelt.jpg)
 
