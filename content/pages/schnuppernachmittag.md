@@ -2,6 +2,7 @@
 title: schnuppernachmittag
 name: Schnuppernachmittag
 ---
+
 > Datum: **1. Dezember**
 >
 > Ort: **Schulhaus Untermoos Albisrieden** (Bushaltestelle Untermoosstrasse)
@@ -18,7 +19,7 @@ Die Eltern erhalten beim **Schulhaus Untermoos** von Leitung und Vorstand weiter
 
 Wir lassen jeden zweiten Samstag Kinder und Jugendliche einige Stunden lang Abenteuer erleben mit viel Spiel, Sport und Spass, sei es beim Zelten in Feld und Wald oder beim Schlauchbootfahren auf dem See. Dabei lernen sie sich zurechtfinden in der Natur, richtig Feuer zu machen und erwerben grundlegende handwerkliche Fähigkeiten.
 
-**Download:** [Einladung und Informationen](files/Einladung-2018-11-17.pdf)
+**Download:** [Einladung und Informationen](files/Einladung-2018-12-01.pdf)
 
 **Download:** [Wir stellen uns vor](files/Kadetten-Zürich-Wir-stellen-uns-vor.pdf)
 
@@ -32,5 +33,5 @@ Wir lassen jeden zweiten Samstag Kinder und Jugendliche einige Stunden lang Aben
 
 Bei **Fragen** oder zur **Anmeldung** können Sie sich gerne an Christian Hartmann wenden:
 
-* [christian.hartmann@kadetten.ch](mailto:christian.hartmann@kadetten.ch?subject=Kadetten-Schnuppernachmittag)
-* 079 405 88 53
+- [christian.hartmann@kadetten.ch](mailto:christian.hartmann@kadetten.ch?subject=Kadetten-Schnuppernachmittag)
+- 079 405 88 53
