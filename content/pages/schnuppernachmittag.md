@@ -2,7 +2,6 @@
 title: schnuppernachmittag
 name: Schnuppernachmittag
 ---
-
 > Datum: **1. Dezember**
 >
 > Ort: **Schulhaus Untermoos Albisrieden** (Bushaltestelle Untermoosstrasse)
@@ -11,7 +10,7 @@ name: Schnuppernachmittag
 
 ## Infos
 
-Am Samstag, dem 14. November, von 14 bis 17 Uhr, hat Ihr Kind die Gelegenheit bei den Kadetten zu schnuppern.
+Am Samstag, 1. Dezember, von 14 bis 17 Uhr, hat Ihr Kind die Gelegenheit bei den Kadetten zu schnuppern.
 
 Wir zeigen an diesem Nachmittag Ihrem Kind im Wald oberhalb Zürichs einen Ausschnitt von dem, was es mit den Kadetten alles erleben kann. Die Teilnahme ist kostenlos.
 
@@ -33,5 +32,5 @@ Wir lassen jeden zweiten Samstag Kinder und Jugendliche einige Stunden lang Aben
 
 Bei **Fragen** oder zur **Anmeldung** können Sie sich gerne an Christian Hartmann wenden:
 
-- [christian.hartmann@kadetten.ch](mailto:christian.hartmann@kadetten.ch?subject=Kadetten-Schnuppernachmittag)
-- 079 405 88 53
+* [christian.hartmann@kadetten.ch](mailto:christian.hartmann@kadetten.ch?subject=Kadetten-Schnuppernachmittag)
+* 079 405 88 53
