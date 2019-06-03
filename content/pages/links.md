@@ -9,38 +9,34 @@ name: Links
 
 ### Kadetten
 
-- [Kadettenverband Schweiz](http://www.kadettenverband.ch)
-- [Kantonaler Kadettenverband Zürich und Schaffhausen](http://kkv.kadetten.ch)
+- [Kadettenverband Schweiz](https://www.kadettenverband.ch)
+- [Kantonaler Kadettenverband Zürich und Schaffhausen](https://kkv.kadetten.ch)
 
 ### Sport
 
-- [Swiss Olympic](http://www.swissolympic.ch)
-- [Zürcher Kantonalverband für Sport](http://www.zks-zuerich.ch)
-- [Jugend+Sport](http://www.jugen)
+- [Swiss Olympic](https://www.swissolympic.ch)
+- [Zürcher Kantonalverband für Sport](https://www.zks-zuerich.ch)
+- [Jugend+Sport](https://www.jugendundsport.ch/)
 
 ### Jugend
 
-- [okaj Zürich](http://www.okaj.ch)
+- [okaj Zürich](https://www.okaj.ch)
 
 ## Sonstige Links
 
-- [Wikipedia über die Kadetten](http://de.wikipedia.org/wiki/Kadettenverband_Schweiz)
+- [Wikipedia über die Kadetten](https://de.wikipedia.org/wiki/Kadettenverband_Schweiz)
 
 ### Kadetten-Technik
 
-- [Landeskarten Online](http://map.geo.admin.ch)
-- [Morseschrift übersetzen](http://beyer.xornet.de/projekte/morse/)
+- [Landeskarten Online](https://map.geo.admin.ch)
 - [Stadtplan](https://www.stadt-zuerich.ch/stadtplan)
   - Brunnen anzeigen: Themen → Infrastruktur → Brunnen
   - Picknickplätze anzeigen: Themen → Natur → Picknickplatz
-- [Wetter: Regenprognos nächste 24 Stunden](http://landi.ch/meteo/deu/niederschlagsprognosen_32451.aspx)
 
 ### Survival-Shopping
 
-- [Walter-Verlag](http://www.walter-verlag.ch/)
-- [Spatz Camping](http://www.spatz.ch)
-- [Transa](http://www.transa.ch)
-- [Trottomundo](http://www.trottomundo.ch)
-- [Hajk](http://www.hajk.ch)
+- [Spatz Camping](https://www.spatz.ch)
+- [Transa](https://www.transa.ch)
+- [Hajk](https://www.hajk.ch)
 
-Hast Du einen nicht mehr aktuellen Link entdeckt? Oder hast Du einen Vorschlag für einen zusätzlichen Link? Gerne nehmen wir Deine Anregung per [Mail](mailto:tobias.guggisberg@kadetten.ch) entgegen.
+
