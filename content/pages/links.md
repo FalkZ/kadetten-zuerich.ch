@@ -10,7 +10,7 @@ name: Links
 ### Kadetten
 
 - [Kadettenverband Schweiz](https://www.kadettenverband.ch)
-- [Kantonaler Kadettenverband Zürich und Schaffhausen](https://kkv.kadetten.ch)
+- Kantonaler Kadettenverband Zürich und Schaffhausen
 
 ### Sport
 
