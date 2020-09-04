@@ -2,7 +2,7 @@
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/plugin-transform-react-jsx": "^7.0.0",
-    "marked": "^0.5.1",
+    "marked": "^0.7.0",
     "parcel": "^1.10.3",
     "stylus": "^0.54.5"
   },
